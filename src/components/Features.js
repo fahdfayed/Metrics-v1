@@ -122,6 +122,7 @@ height: 50px;
 width: 50px;
 margin-bottom: 10px;
 `;
+
 const ServicesIcon2 = styled(GiWireframeGlobe)`
 height: 50px;
 width: 50px;
