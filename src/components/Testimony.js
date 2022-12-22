@@ -54,7 +54,7 @@ const Content = styled.div`
     }
   }
   h2 {
-font-family: 'CedarvilleCursive', cursive;
+  font-family: 'Rock Salt', cursive;
 font-weight: 800;
 margin-left:350px;
 

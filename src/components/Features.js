@@ -1,10 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Button } from './Button';
-import ImageOne from '../images/kitchen-1.jpg';
 import  ImageFive from '../images/ImageFive.jpg';
 import  ImageSix from '../images/ImageSix.jpg';
-import GoldBox from '../images/GoldBoxes.jpg';
 import {GiTrophyCup, GiWireframeGlobe} from 'react-icons/gi';
 import {FaHandshake} from 'react-icons/fa';
 import {IoEllipsisVerticalSharp} from 'react-icons/io5';
