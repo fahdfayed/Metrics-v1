@@ -7,7 +7,7 @@ import {
   FaInstagram,
   FaFacebookF,
   FaLinkedinIn,
-  FaYoutube
+
 } from 'react-icons/fa';
 
 const Section = styled.section`
@@ -96,9 +96,7 @@ const LinkedIn = styled(FaLinkedinIn)`
   ${Icons}
 `;
 
-const Youtube = styled(FaYoutube)`
-  ${Icons}
-`;
+
 
 const Contact = styled.div`
   width: 50%;
@@ -119,20 +117,15 @@ const Footer = () => {
         <FooterTop>
           <Quote>
             <h3>
-              Let's find <br /> your Dream Home
+              Let's build <br /> your Dream Home
             </h3>
           </Quote>
-          <FooterInfo>
-            <h4>Contact Us</h4>
-            <Link to='/homes'>FAQ</Link>
-            <Link to='/homes'>Support</Link>
-            <Link to='/homes'>Questions</Link>
-          </FooterInfo>
+
           <FooterInfo>
             <h4>Offices</h4>
-            <Link to='/homes'>United States</Link>
-            <Link to='/homes'>Europe</Link>
-            <Link to='/homes'>Canada</Link>
+            <Link to='/homes'>Cairo</Link>
+            <Link to='/homes'>Dubai</Link>
+            <Link to='/homes'>Mansoura</Link>
           </FooterInfo>
         </FooterTop>
         <FooterBottom>
@@ -142,7 +135,7 @@ const Footer = () => {
               rel='noopener noreferrer'
               target='_blank'
             >
-              <Youtube />
+        
             </a>
             <a
               href='//www.google.com'

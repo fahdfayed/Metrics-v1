@@ -5,7 +5,10 @@ import { IoMdArrowRoundForward } from 'react-icons/io';
 import HomeOne from '../images/home-1.jpg';
 import HomeTwo from '../images/home-2.jpg';
 import ImageSeven from '../images/ImageSeven.jpg';
+import landscape from '../images/landscape.jpg';
 import ImageEight from '../images/ImageEight.jpg';
+import Furniture from '../images/Furniture.jpg';
+import Renovation from '../images/Renovation.jpg';
 
 const Section = styled.section`
   width: 100%;
@@ -103,7 +106,7 @@ const Listings = () => {
           >
             <Image src={ImageEight} alt='home' />
             <h2>Construction</h2>
-            <InfoLink to='/homes'>
+            <InfoLink to='/services/construction'>
               <p>View Details</p>
               <Arrow />
             </InfoLink>
@@ -125,7 +128,7 @@ const Listings = () => {
               `}
             />
             <h2>Interior Design & Execution</h2>
-            <InfoLink to='/homes'>
+            <InfoLink to='/services/renovation'>
               <p>View Details</p>
               <Arrow />
             </InfoLink>
@@ -138,9 +141,9 @@ const Listings = () => {
             data-aos-once='true'
             data-aos-anchor-placement='center bottom'
           >
-            <Image src={ImageEight} alt='home' />
+            <Image src={Renovation} alt='home' />
             <h2>Renovation & Remodeling</h2>
-            <InfoLink to='/homes'>
+            <InfoLink to='/services/interior'>
               <p>View Details</p>
               <Arrow />
             </InfoLink>
@@ -152,7 +155,7 @@ const Listings = () => {
             data-aos-anchor-placement='center bottom'
           >
             <Image
-              src={ImageSeven}
+              src={Furniture}
               alt='home'
               css={`
                 margin-top: 120px;
@@ -162,7 +165,7 @@ const Listings = () => {
               `}
             />
             <h2>Furniture Manufacturing</h2>
-            <InfoLink to='/homes'>
+            <InfoLink to='/services/furniture'>
               <p>View Details</p>
               <Arrow />
             </InfoLink>
@@ -179,9 +182,9 @@ const Listings = () => {
             
           >
             <Image
-            src={ImageEight} alt='home' />
-            <h2>Renovation & Remodeling</h2>
-            <InfoLink to='/homes'>
+            src={landscape} alt='home' />
+            <h2>Soft/Hard Landscaping</h2>
+            <InfoLink to='/services/landscaping'>
               <p>View Details</p>
               <Arrow />
             </InfoLink>

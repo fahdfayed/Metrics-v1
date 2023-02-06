@@ -5,6 +5,7 @@ import ImageFour from '../images/ImageFour.jpg';
 import ImageFive from '../images/slide-1.jpg';
 import ImageSix from '../images/slide-2.jpg';
 import ImageSeven from '../images/slide-3.jpg';
+import ImageNine from '../images/ImageNine.jpg';
 
 export const SliderData = [
   {
@@ -64,6 +65,35 @@ export const SliderDataTwo = [
     path: '/homes',
     label: 'View Home',
     image: ImageSeven,
+    alt: 'House'
+  }
+];
+export const SliderDataThree = [
+  {
+    heading: 'Our Mission',
+    title: 'To incorporate quality and innovation into the field',
+    price: 'while delivering high quality service and providing exceptional customer satisfaction.',
+    path: '/homes',
+    label: 'View Home',
+    image: ImageNine,
+    alt: 'House'
+  },
+  {
+    heading: 'Our Vision',
+    title: 'To influence the lives of all our customers. ',
+    price: 'and leave a lasting impression on their minds and imagination. ',
+    path: '/homes',
+    label: 'View Home',
+    image: ImageNine,
+    alt: 'House'
+  },
+  {
+    heading: 'Our Values',
+    title: 'We always strive to earn credibility with our customers;',
+    price: 'we conducted ourselves with integrity through providing  our customers the value we promise.',
+    path: '/homes',
+    label: 'View Home',
+    image: ImageNine,
     alt: 'House'
   }
 ];
